@@ -1,0 +1,8 @@
+{
+  "nodemonConfig": {
+    "ext": "js",
+    "ignore": ["*.test.ts", "db/*"],
+    "delay": "2"
+  },
+  "scripts": { "start": "nodemon" }
+}

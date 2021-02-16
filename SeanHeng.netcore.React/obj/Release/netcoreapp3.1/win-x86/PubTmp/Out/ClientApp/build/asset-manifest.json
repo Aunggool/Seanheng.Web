@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SeanHeng.Web/static/css/main.27181066.chunk.css",
+    "main.js": "/SeanHeng.Web/static/js/main.16a97d6e.chunk.js",
+    "main.js.map": "/SeanHeng.Web/static/js/main.16a97d6e.chunk.js.map",
+    "runtime-main.js": "/SeanHeng.Web/static/js/runtime-main.0961cc2a.js",
+    "runtime-main.js.map": "/SeanHeng.Web/static/js/runtime-main.0961cc2a.js.map",
+    "static/js/2.85cea82a.chunk.js": "/SeanHeng.Web/static/js/2.85cea82a.chunk.js",
+    "static/js/2.85cea82a.chunk.js.map": "/SeanHeng.Web/static/js/2.85cea82a.chunk.js.map",
+    "static/js/3.119a7677.chunk.js": "/SeanHeng.Web/static/js/3.119a7677.chunk.js",
+    "static/js/3.119a7677.chunk.js.map": "/SeanHeng.Web/static/js/3.119a7677.chunk.js.map",
+    "index.html": "/SeanHeng.Web/index.html",
+    "static/css/main.27181066.chunk.css.map": "/SeanHeng.Web/static/css/main.27181066.chunk.css.map",
+    "static/js/2.85cea82a.chunk.js.LICENSE.txt": "/SeanHeng.Web/static/js/2.85cea82a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0961cc2a.js",
+    "static/js/2.85cea82a.chunk.js",
+    "static/css/main.27181066.chunk.css",
+    "static/js/main.16a97d6e.chunk.js"
+  ]
+}

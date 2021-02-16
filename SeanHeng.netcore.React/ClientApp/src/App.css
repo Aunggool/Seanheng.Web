@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Thai Sans Neue'; */
+  font-family: "Mitr", sans-serif;
+}
+
+:root{
+  --primary:#fff;
+  --bg: #B62025;
+  --red: #B62025;
+  --yellow: #F8C915;
+  --white: #fff;
+  --almostBlack: #242424;
+  --orange: #FB6D00;
+  --lightGray:#F7F7F7;
+  --darkGray:#666665;
+}
