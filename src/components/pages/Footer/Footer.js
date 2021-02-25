@@ -25,11 +25,11 @@ function Footer() {
           </a>
         </div>
         <div className="footer__text-wapper phone">
-          <aside className="social-logo" href="tel:0924329323">
+          <aside className="social-logo" href="tel:0931646553">
             <FaPhoneAlt />
           </aside>
-          <a className="footer__text" href="tel:0924329323">
-            092-432-9323
+          <a className="footer__text" href="tel:0931646553">
+            093-164-6553
           </a>
         </div>
         <div className="footer__text-wapper email">

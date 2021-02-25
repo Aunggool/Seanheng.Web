@@ -27,19 +27,10 @@ function FAQContent() {
                 handleClick("faq1");
               }}
             >
-              <h3>1) เซียนเฮงทำงานอย่างไร</h3>
+              <h3>1) เซียนเฮงคืออะไร</h3>
             </div>
               <div className={(faqList.faq1?"faq__answer-wrapper ":"faq__answer-wrapper hide")}>
-                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                non cupidatat skateboard dolor brunch. Food truck quinoa
-                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
-                put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
-                wes anderson cred nesciunt sapiente ea proident. Ad vegan
-                excepteur butcher vice lomo. Leggings occaecat craft beer
-                farm-to-table, raw denim aesthetic synth nesciunt you probably
-                haven't heard of them accusamus labore sustainable VHS.
+              เซียนเฮงเป็นระบบแชทบอทที่ช่วยร้านค้า เสนอสินค้า ตอบ ปิดการขาย พร้อมรองรับจำนวนผู้ซื้อผ่านช่องทางการแชท Line และ Facebook พร้อมระบบการจัดการสินค้า ออร์เดอร์ แชท วิเคราะห์การขาย 
               </div>
           </div>
           <div className="faq__wrapper">
@@ -49,19 +40,14 @@ function FAQContent() {
                 handleClick("faq2");
               }}
             >
-              <h3>1) เซียนเฮงทำงานอย่างไร</h3>
+              <h3>2) เซียนเฮงมี Feature อะไรบ้าง</h3>
             </div>
               <div className={(faqList.faq2?"faq__answer-wrapper ":"faq__answer-wrapper hide")}>
-                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                non cupidatat skateboard dolor brunch. Food truck quinoa
-                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
-                put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
-                wes anderson cred nesciunt sapiente ea proident. Ad vegan
-                excepteur butcher vice lomo. Leggings occaecat craft beer
-                farm-to-table, raw denim aesthetic synth nesciunt you probably
-                haven't heard of them accusamus labore sustainable VHS.
+                <li>2.1) สมัครใช้งานง่ายเพียงแค่สมัครใช้งาน ไม่เกิน 5 นาที ก็สามารถขายสินค้าได้ทันที เรามีทีมงานที่พร้อมดูแลและเข้าใจคุณ</li>
+                <li>2.2) ระบบแชทบอท ไม่ต้องสอน'บอท'ใช้งานได้ทันที ที่ช่วยนำเสนอสินค้า ตอบลูกค้าหลายๆรายอย่างฉับไว และสามารถปิดการขายได้ทันที พร้อมตัดสต๊อกให้อัตโนมัติ </li>
+                <li>2.3) แชทสด(Livechat) พูดคุยกับลูกค้าทุกช่องทาง Facebook Line คุณสามารถแชทกับลูกค้าได้โดยตรง และที่สำคัญคุณสามาถนำเสนอดีลสุดพิเศษให้ลูกค้าได้ทันที</li>
+                <li>2.4) ระบบจัดการ Order ช่วยตรวจสอบสถานะการสั่งซื้อ เก็บบันทึกออเดอร์ของลูกค้า พร้อมตรวจสอบการชำระและ อัพเดทสถานะออเดอร์ลูกค้าได้ตลอดเวลา </li>
+                <li>2.5) ระบบจัดการ Stock ช่วยจัดการสินค้าภายในร้านค้าคุณ เพิ่มสินค้าใหม่ๆ สินค้าโปรโมชั่น และดีลพิเศษได้ด้วยตัวเอง มีระบบตรวจสอบสต็อกสินค้าอย่างแม่นยำ</li>
               </div>
           </div>
           <div className="faq__wrapper">
@@ -71,7 +57,7 @@ function FAQContent() {
                 handleClick("faq3");
               }}
             >
-              <h3>1) การสมัครใช้งานเซียนเฮงโดย Facebook</h3>
+              <h3>3) การสมัครใช้งานเซียนเฮงโดย Facebook</h3>
             </div>
               <div className={(faqList.faq3?"faq__answer-wrapper ":"faq__answer-wrapper hide")}>
                 <iframe  src='https://www.youtube.com/embed/pgQYFDHx4jc' style={{ width:'100%',height:'550px' }} />
@@ -84,7 +70,7 @@ function FAQContent() {
                 handleClick("faq4");
               }}
             >
-              <h3>1) การสมัครใช้งานเซียนเฮงโดย Line</h3>
+              <h3>4) การสมัครใช้งานเซียนเฮงโดย Line</h3>
             </div>
               <div className={(faqList.faq4?"faq__answer-wrapper ":"faq__answer-wrapper hide")}>
               <iframe  src='https://www.youtube.com/embed/3ce15Afx56E' style={{ width:'100%',height:'550px' }} />
