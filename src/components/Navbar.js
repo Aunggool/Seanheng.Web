@@ -62,11 +62,11 @@ function Navbar() {
                         </li>
                         <li className="nav-btn">
                             {button?(
-                                <a href='https://app.seanheng.com/web.merchantmgmt.biz/login' className="nav-links" onClick={closeMobleMenu}>
+                                <a href='https://app.seanheng.com/web.merchantmgmt.biz/main' className="nav-links" onClick={closeMobleMenu}>
                                     <Button buttonStyle='btn--outline'>เข้าสู่ระบบ</Button>
                                 </a>
                             ) : (
-                                <a href='https://app.seanheng.com/web.merchantmgmt.biz/login' className="nav-links" onClick={closeMobleMenu}>
+                                <a href='https://app.seanheng.com/web.merchantmgmt.biz/main' className="nav-links" onClick={closeMobleMenu}>
                                     <Button buttonStyle='btn--outline'
                                     buttonSize='btn--mobile'>
                                         เข้าสู่ระบบ
