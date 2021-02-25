@@ -1,0 +1,32 @@
+.header__container {
+  display: flex;
+  margin: 50px -15px ;
+  flex-wrap: wrap;
+  align-content: stretch;
+  align-items: center;
+  font-size: 24px;
+}
+
+.header__row {
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 1;
+  width: 100%;
+  flex-basis: 100%;
+  padding:10px;
+}
+
+.header__text-center {
+    color:black;
+    text-align: center;
+}
+
+.header__text-underline{
+    text-decoration: underline;
+}
+
+.header__text-bolder-red{
+    color: var(--bg);
+    font-weight: 600;
+    font-size: 32px;
+}

@@ -1,0 +1,125 @@
+
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 4x;
+    outline: none;
+    border: none;
+    white-space: nowrap;
+    cursor: pointer ;
+}
+
+.btn--primary{
+    background-color: var(--primary);
+    color: var(--bg);
+    border:  1px solid var(--primary);
+}
+
+.btn--outline{
+    background-color: transparent !important;
+    color: #fff;
+    pad: 8px 20px;
+    border:  1px solid var(--primary) !important;
+    transition: all 0.3s ease-out;
+}
+
+.btn--outline:hover{
+    background-color: #fff !important;
+    color: var(--primary);
+}
+
+.btn--solid{
+    background-color: var(--yellow) !important;
+    color: #fff;
+    cursor: pointer ;
+    pad: 8px 20px;
+    border:  1px solid var(--primary) !important;
+    transition: all 0.3s ease-out;
+}
+
+.btn--solid:hover{
+    background-color: var(--yellow) !important;
+    color: var(--white);
+}
+
+.btn--large{
+    padding: 12px 26px;
+    font-size: 20px;
+}
+
+.btn--mobile{
+    text-align: center;
+    border-radius: 30px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 24px;
+    background-color: transparent;
+    color: #fff;
+    padding: 14px 24px ;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-out;
+}    
+
+.btn--wide{
+    padding: 12px 64px;
+    font-size: 20px;
+}
+
+.btn--large:hover, .btn--medium:hover,.btn--outline:hover, .btn--mobile:hover{
+    transition: all 0.3 ease-out;
+    background:  #fff;
+    color: var(--bg);
+}
+
+.btn--wide:hover {
+    color: #fff;
+    background-color: #f00946;
+    transition: all 0.3 ease-out;
+}
+
+.blue{
+    background-color: #276afb;
+    color: #fff;
+    border: none;
+}
+
+.red{
+    background-color: #f00946;
+    color: #fff;
+    border: none;
+}
+
+.primary{
+    background-color: var(--bg);
+    color: #fff;
+    border: none;
+}
+
+.primary:hover{
+    background-color: #fff;
+    color:var(--bg);
+    border: none;
+}
+
+.green{
+    background-color: #25ce4a;
+    color: #fff;
+    border: none;
+}
+
+.green:hover{
+    background-color: var(--bg);
+    color: #fff;
+    border: none;
+}
+
+
+.btn--link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 8px 12px ;
+    height: 100%;
+    width: 100%;
+}
