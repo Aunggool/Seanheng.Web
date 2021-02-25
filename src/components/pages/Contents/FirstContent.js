@@ -50,7 +50,7 @@ function FirstContent() {
                   <h3>คุณได้มีเวลาให้กับคนที่รักคุณ</h3>
                 </div>
                 <img
-                  src={"http://localhost:45678/images/lp_02_1x.jpg"}
+                  src={"images/lp_02_1x.jpg"}
                   alt={"Child"}
                   className="home__hero-img"
                 />
