@@ -71,19 +71,10 @@ function FAQContent() {
                 handleClick("faq3");
               }}
             >
-              <h3>1) เซียนเฮงทำงานอย่างไร</h3>
+              <h3>1) การสมัครใช้งานเซียนเฮงโดย Facebook</h3>
             </div>
               <div className={(faqList.faq3?"faq__answer-wrapper ":"faq__answer-wrapper hide")}>
-                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                non cupidatat skateboard dolor brunch. Food truck quinoa
-                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
-                put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
-                wes anderson cred nesciunt sapiente ea proident. Ad vegan
-                excepteur butcher vice lomo. Leggings occaecat craft beer
-                farm-to-table, raw denim aesthetic synth nesciunt you probably
-                haven't heard of them accusamus labore sustainable VHS.
+                <iframe  src='https://www.youtube.com/embed/pgQYFDHx4jc' style={{ width:'100%',height:'550px' }} />
               </div>
           </div>
           <div className="faq__wrapper">
@@ -93,19 +84,10 @@ function FAQContent() {
                 handleClick("faq4");
               }}
             >
-              <h3>1) เซียนเฮงทำงานอย่างไร</h3>
+              <h3>1) การสมัครใช้งานเซียนเฮงโดย Line</h3>
             </div>
               <div className={(faqList.faq4?"faq__answer-wrapper ":"faq__answer-wrapper hide")}>
-                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                non cupidatat skateboard dolor brunch. Food truck quinoa
-                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
-                put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
-                wes anderson cred nesciunt sapiente ea proident. Ad vegan
-                excepteur butcher vice lomo. Leggings occaecat craft beer
-                farm-to-table, raw denim aesthetic synth nesciunt you probably
-                haven't heard of them accusamus labore sustainable VHS.
+              <iframe  src='https://www.youtube.com/embed/3ce15Afx56E' style={{ width:'100%',height:'550px' }} />
               </div>
           </div>
         </div>
