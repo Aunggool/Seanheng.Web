@@ -48,12 +48,14 @@ function Navbar() {
                             <li className="nav-btn" id='register_navbar'>
                                 {button ? (
                                     <a href='#register' className="nav-links" onClick={closeMobleMenu}>
-                                        <Button buttonStyle='btn--solid'>สมัครสมาชิก</Button>
+                                        <Button buttonStyle='btn--solid'
+                                            id='register_navbar'>สมัครสมาชิก</Button>
                                     </a>
                                 ) : (
                                         <a href='#register' className="nav-links" onClick={closeMobleMenu}>
                                             <Button buttonStyle='btn--solid'
-                                                buttonSize='btn--mobile'>
+                                                buttonSize='btn--mobile'
+                                                id='register_navbar'>
                                                 สมัครสมาชิก
                                     </Button>
                                         </a>
@@ -63,12 +65,12 @@ function Navbar() {
                             <li className="nav-btn" id='login_navbar' >
                                 {button ? (
                                     <a href='https://app.seanheng.com/web.merchantmgmt.biz/main' className="nav-links" onClick={closeMobleMenu}>
-                                        <Button buttonStyle='btn--outline'>เข้าสู่ระบบ</Button>
+                                        <Button buttonStyle='btn--outline' id='login_navbar'>เข้าสู่ระบบ</Button>
                                     </a>
                                 ) : (
                                         <a href='https://app.seanheng.com/web.merchantmgmt.biz/main' className="nav-links" onClick={closeMobleMenu}>
                                             <Button buttonStyle='btn--outline'
-                                                buttonSize='btn--mobile'>
+                                                buttonSize='btn--mobile' id='login_navbar'>
                                                 เข้าสู่ระบบ
                                     </Button>
                                         </a>
