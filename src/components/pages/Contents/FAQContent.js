@@ -26,7 +26,7 @@ function FAQContent() {
               onClick={() => {
                 handleClick("faq1");
               }}
-
+              id='faq_content_1'
             >
               <h3 id='faq_content_1'>1) เซียนเฮงคืออะไร</h3>
             </div>
@@ -40,7 +40,7 @@ function FAQContent() {
               onClick={() => {
                 handleClick("faq2");
               }}
-
+              id='faq_content_2'
             >
               <h3 id='faq_content_2'>2) เซียนเฮงมี Feature อะไรบ้าง</h3>
             </div>
@@ -58,6 +58,7 @@ function FAQContent() {
               onClick={() => {
                 handleClick("faq3");
               }}
+              id='faq_content_3'
 
             >
               <h3 id='faq_content_3'>3) การสมัครใช้งานเซียนเฮงโดย Facebook</h3>
@@ -72,7 +73,7 @@ function FAQContent() {
               onClick={() => {
                 handleClick("faq4");
               }}
-
+              id='faq_content_4'
             >
               <h3 id='faq_content_4'>4) การสมัครใช้งานเซียนเฮงโดย Line</h3>
             </div>
