@@ -11,7 +11,7 @@ function Pricing() {
             <h1 className="pricing__heading">Pricing</h1>
             <div className="pricing__container">
               <a href="#register" className="pricing__container-card" id='price_button_free'>
-                <div className="pricing__container-cardInfo">
+                <div className="pricing__container-cardInfo" id='price_button_free'>
                   <h3>14 วันแรก</h3>
                   <h4>ฟรี</h4>
                   <p>ใช้งานได้ทุกคุณสมบัติ</p>
@@ -19,7 +19,7 @@ function Pricing() {
               </a>
 
               <a href="#register" className="pricing__container-card" id='price_button_1m'>
-                <div className="pricing__container-cardInfo">
+                <div className="pricing__container-cardInfo" id='price_button_1m'>
                   <h3>1 เดือน</h3>
                   <h4>฿490</h4>
                   <p>ต่อเดือน</p>
@@ -27,7 +27,7 @@ function Pricing() {
               </a>
 
               <a href="#register" className="pricing__container-card" id='price_button_3m'>
-                <div className="pricing__container-cardInfo">
+                <div className="pricing__container-cardInfo" id='price_button_3m'>
                   <h3>3 เดือน</h3>
                   <h4>฿1,290</h4>
                   <p>จาก 1,490 บาท</p>
@@ -35,7 +35,7 @@ function Pricing() {
               </a>
 
               <a href="#register" className="pricing__container-card" id='price_button_6m'>
-                <div className="pricing__container-cardInfo">
+                <div className="pricing__container-cardInfo" id='price_button_6m'>
                   <h3>6 เดือน</h3>
                   <h4>฿2,540</h4>
                   <p>จาก <span className="cross-out">2,940</span> บาท</p>
@@ -43,7 +43,7 @@ function Pricing() {
               </a>
 
               <a href="#register" className="pricing__container-card" id='price_button_12m'>
-                <div className="pricing__container-cardInfo">
+                <div className="pricing__container-cardInfo" id='price_button_12m'>
                   <h3>12 เดือน</h3>
                   <h4>฿4,990</h4>
                   <p>จาก 5,880 บาท</p>
