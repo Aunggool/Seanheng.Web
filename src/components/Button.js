@@ -1,7 +1,7 @@
 import React from "react";
 import "./Button.css";
 
-const STYLES = ["btn--primary", "btn--outline", "btn--solid","btn--link"];
+const STYLES = ["btn--primary", "btn--outline", "btn--solid", "btn--link"];
 
 const SIZES = ["btn--medium", "btn--large", "btn--mobile", "btn--wide"];
 
@@ -14,21 +14,23 @@ export const Button = ({
   buttonStyle,
   buttonSize,
   buttonColor,
+  id,
 }) => {
-    const checkButtonStyle = STYLES.includes(buttonStyle)
-      ? buttonStyle
-      : STYLES[0];
-      const checkButtonSize = SIZES.includes(buttonSize)
-        ? buttonSize
-        : SIZES[0];
-        const checkButtonColor = COLOR.includes(buttonColor)
-          ? buttonColor
-          : COLOR[0];
+  const checkButtonStyle = STYLES.includes(buttonStyle)
+    ? buttonStyle
+    : STYLES[0];
+  const checkButtonSize = SIZES.includes(buttonSize)
+    ? buttonSize
+    : SIZES[0];
+  const checkButtonColor = COLOR.includes(buttonColor)
+    ? buttonColor
+    : COLOR[0];
 
   return (
     <button
       className={`btn ${checkButtonStyle} ${checkButtonSize} ${checkButtonColor}`}
       onClick={onclick}
+      id={id}
     >
       {children}
     </button>

@@ -28,7 +28,7 @@ function FAQContent() {
               }}
 
             >
-              <h3>1) เซียนเฮงคืออะไร</h3>
+              <h3 id='faq_content_1'>1) เซียนเฮงคืออะไร</h3>
             </div>
             <div className={(faqList.faq1 ? "faq__answer-wrapper " : "faq__answer-wrapper hide")}>
               เซียนเฮงเป็นระบบแชทบอทที่ช่วยร้านค้า เสนอสินค้า ตอบ ปิดการขาย พร้อมรองรับจำนวนผู้ซื้อผ่านช่องทางการแชท Line และ Facebook พร้อมระบบการจัดการสินค้า ออร์เดอร์ แชท วิเคราะห์การขาย
@@ -42,7 +42,7 @@ function FAQContent() {
               }}
 
             >
-              <h3>2) เซียนเฮงมี Feature อะไรบ้าง</h3>
+              <h3 id='faq_content_2'>2) เซียนเฮงมี Feature อะไรบ้าง</h3>
             </div>
             <div className={(faqList.faq2 ? "faq__answer-wrapper " : "faq__answer-wrapper hide")}>
               <li>2.1) สมัครใช้งานง่ายเพียงแค่สมัครใช้งาน ไม่เกิน 5 นาที ก็สามารถขายสินค้าได้ทันที เรามีทีมงานที่พร้อมดูแลและเข้าใจคุณ</li>
@@ -60,7 +60,7 @@ function FAQContent() {
               }}
 
             >
-              <h3>3) การสมัครใช้งานเซียนเฮงโดย Facebook</h3>
+              <h3 id='faq_content_3'>3) การสมัครใช้งานเซียนเฮงโดย Facebook</h3>
             </div>
             <div className={(faqList.faq3 ? "faq__answer-wrapper " : "faq__answer-wrapper hide")}>
               <iframe src='https://www.youtube.com/embed/pgQYFDHx4jc' style={{ width: '100%', height: '550px' }} />
@@ -74,7 +74,7 @@ function FAQContent() {
               }}
 
             >
-              <h3>4) การสมัครใช้งานเซียนเฮงโดย Line</h3>
+              <h3 id='faq_content_4'>4) การสมัครใช้งานเซียนเฮงโดย Line</h3>
             </div>
             <div className={(faqList.faq4 ? "faq__answer-wrapper " : "faq__answer-wrapper hide")}>
               <iframe src='https://www.youtube.com/embed/3ce15Afx56E' style={{ width: '100%', height: '550px' }} />

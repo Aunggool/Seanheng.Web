@@ -22,8 +22,8 @@ function ThirdContent() {
                   ไม่ว่าร้านคุณจะใหญ่ขึ้นขนาดไหน
                   แอดมินก็สามารถรับมือและดูแลลูกค้าได้อย่างแน่นอน
                 </p>
-                <a href="#register" id='register_feature_button_3'>
-                  <Button buttonSize="btn--wide" buttonColor="blue" >
+                <a href="#register" >
+                  <Button buttonSize="btn--wide" buttonColor="blue" id='register_feature_button_3'>
                     สมัครใช้งาน
                   </Button>
                 </a>
