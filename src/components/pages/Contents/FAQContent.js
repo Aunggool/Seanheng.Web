@@ -20,13 +20,13 @@ function FAQContent() {
     <>
       <div className="faq-section">
         <div className="container">
-          <div className="faq__wrapper">
+          <div className="faq__wrapper" id='faq_content_1'>
             <div
               className="faq__question-wrapper"
               onClick={() => {
                 handleClick("faq1");
               }}
-              id='faq_content_1'
+
             >
               <h3>1) เซียนเฮงคืออะไร</h3>
             </div>
@@ -34,13 +34,13 @@ function FAQContent() {
               เซียนเฮงเป็นระบบแชทบอทที่ช่วยร้านค้า เสนอสินค้า ตอบ ปิดการขาย พร้อมรองรับจำนวนผู้ซื้อผ่านช่องทางการแชท Line และ Facebook พร้อมระบบการจัดการสินค้า ออร์เดอร์ แชท วิเคราะห์การขาย
               </div>
           </div>
-          <div className="faq__wrapper">
+          <div className="faq__wrapper" id='faq_content_2'>
             <div
               className="faq__question-wrapper"
               onClick={() => {
                 handleClick("faq2");
               }}
-              id='faq_content_2'
+
             >
               <h3>2) เซียนเฮงมี Feature อะไรบ้าง</h3>
             </div>
@@ -52,13 +52,13 @@ function FAQContent() {
               <li>2.5) ระบบจัดการ Stock ช่วยจัดการสินค้าภายในร้านค้าคุณ เพิ่มสินค้าใหม่ๆ สินค้าโปรโมชั่น และดีลพิเศษได้ด้วยตัวเอง มีระบบตรวจสอบสต็อกสินค้าอย่างแม่นยำ</li>
             </div>
           </div>
-          <div className="faq__wrapper">
+          <div className="faq__wrapper" id='faq_content_3'>
             <div
               className="faq__question-wrapper"
               onClick={() => {
                 handleClick("faq3");
               }}
-              id='faq_content_3'
+
             >
               <h3>3) การสมัครใช้งานเซียนเฮงโดย Facebook</h3>
             </div>
@@ -66,13 +66,13 @@ function FAQContent() {
               <iframe src='https://www.youtube.com/embed/pgQYFDHx4jc' style={{ width: '100%', height: '550px' }} />
             </div>
           </div>
-          <div className="faq__wrapper">
+          <div className="faq__wrapper" id='faq_content_4'>
             <div
               className="faq__question-wrapper"
               onClick={() => {
                 handleClick("faq4");
               }}
-              id='faq_content_4'
+
             >
               <h3>4) การสมัครใช้งานเซียนเฮงโดย Line</h3>
             </div>

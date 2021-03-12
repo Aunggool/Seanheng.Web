@@ -23,8 +23,8 @@ function SecondContent() {
                 <p className="home__hero-subtitle dark">
                   เพราะเรารู้ว่าการตอบแชทลูกค้าจะใช้เวลามาก เซียนเฮงสามารถช่วยคุณตอบแชทและบันทึกการสั่งซื้อของลูกค้าของคุณได้อย่างถูกต้องและแม่นยำ ลูกค้าของคุณจะไม่ต้องรออีกต่อไป ทุกคำถามและทุกการสั่งซื้อ เซียนเฮงสามารถตอบให้ได้ภายในเสี้ยววินาที
                 </p>
-                <a href="#register">
-                  <Button buttonSize="btn--wide" buttonColor="blue" id='register_feature_button_2'>
+                <a href="#register" id='register_feature_button_2'>
+                  <Button buttonSize="btn--wide" buttonColor="blue" >
                     สมัครใช้งาน
                   </Button>
                 </a>

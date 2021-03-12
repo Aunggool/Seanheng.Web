@@ -45,13 +45,13 @@ function Navbar() {
                                     ราคา
                             </a>
                             </li>
-                            <li className="nav-btn">
+                            <li className="nav-btn" id='register_navbar'>
                                 {button ? (
-                                    <a href='#register' className="nav-links" id='register_navbar' onClick={closeMobleMenu}>
+                                    <a href='#register' className="nav-links" onClick={closeMobleMenu}>
                                         <Button buttonStyle='btn--solid'>สมัครสมาชิก</Button>
                                     </a>
                                 ) : (
-                                        <a href='#register' className="nav-links" id='register_navbar' onClick={closeMobleMenu}>
+                                        <a href='#register' className="nav-links" onClick={closeMobleMenu}>
                                             <Button buttonStyle='btn--solid'
                                                 buttonSize='btn--mobile'>
                                                 สมัครสมาชิก
@@ -60,13 +60,13 @@ function Navbar() {
                                     )
                                 }
                             </li>
-                            <li className="nav-btn">
+                            <li className="nav-btn" id='login_navbar' >
                                 {button ? (
-                                    <a href='https://app.seanheng.com/web.merchantmgmt.biz/main' id='login_navbar' className="nav-links" onClick={closeMobleMenu}>
+                                    <a href='https://app.seanheng.com/web.merchantmgmt.biz/main' className="nav-links" onClick={closeMobleMenu}>
                                         <Button buttonStyle='btn--outline'>เข้าสู่ระบบ</Button>
                                     </a>
                                 ) : (
-                                        <a href='https://app.seanheng.com/web.merchantmgmt.biz/main' id='login_navbar' className="nav-links" onClick={closeMobleMenu}>
+                                        <a href='https://app.seanheng.com/web.merchantmgmt.biz/main' className="nav-links" onClick={closeMobleMenu}>
                                             <Button buttonStyle='btn--outline'
                                                 buttonSize='btn--mobile'>
                                                 เข้าสู่ระบบ

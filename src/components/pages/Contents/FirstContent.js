@@ -25,8 +25,8 @@ function FirstContent() {
                   เพื่อช่วยดูแลธุรกิจให้กับคุณ ให้คุณมีเวลาไปดูแลครอบครัว
                   ซึ่งเป็นสิ่งสำคัญได้มากขึ้น
                 </p>
-                <a href="#register">
-                  <Button buttonSize="btn--wide" buttonColor="blue" id='register_feature_button'>
+                <a href="#register" id='register_feature_button'>
+                  <Button buttonSize="btn--wide" buttonColor="blue" >
                     สมัครใช้งาน
                   </Button>
                 </a>
