@@ -8,9 +8,9 @@ function Pricing() {
       <div id="price">
         <div className="pricing__section">
           <div className="pricing__wrapper">
-                      <h1 className="pricing__heading">Pricing</h1>
-                      <div className="pricing__container">
-              <a href="#register" className="pricing__container-card">
+            <h1 className="pricing__heading">Pricing</h1>
+            <div className="pricing__container">
+              <a href="#register" className="pricing__container-card" id='price_button_free'>
                 <div className="pricing__container-cardInfo">
                   <h3>14 วันแรก</h3>
                   <h4>ฟรี</h4>
@@ -18,7 +18,7 @@ function Pricing() {
                 </div>
               </a>
 
-              <a href="#register" className="pricing__container-card">
+              <a href="#register" className="pricing__container-card" id='price_button_1m'>
                 <div className="pricing__container-cardInfo">
                   <h3>1 เดือน</h3>
                   <h4>฿490</h4>
@@ -26,7 +26,7 @@ function Pricing() {
                 </div>
               </a>
 
-              <a href="#register" className="pricing__container-card">
+              <a href="#register" className="pricing__container-card" id='price_button_3m'>
                 <div className="pricing__container-cardInfo">
                   <h3>3 เดือน</h3>
                   <h4>฿1,290</h4>
@@ -34,7 +34,7 @@ function Pricing() {
                 </div>
               </a>
 
-              <a href="#register" className="pricing__container-card">
+              <a href="#register" className="pricing__container-card" id='price_button_6m'>
                 <div className="pricing__container-cardInfo">
                   <h3>6 เดือน</h3>
                   <h4>฿2,540</h4>
@@ -42,7 +42,7 @@ function Pricing() {
                 </div>
               </a>
 
-              <a href="#register" className="pricing__container-card">
+              <a href="#register" className="pricing__container-card" id='price_button_12m'>
                 <div className="pricing__container-cardInfo">
                   <h3>12 เดือน</h3>
                   <h4>฿4,990</h4>

@@ -9,10 +9,10 @@ function Footer() {
     <div className="footer-container">
       <div className="footer__main-wrapper">
         <div className="footer__text-wapper facebook">
-          <a className="social-logo" href="https://www.facebook.com">
+          <a className="social-logo" href="https://www.facebook.com/seanhengchatbot">
             <FaFacebook />
           </a>
-          <a className="footer__text" href="https://www.facebook.com">
+          <a className="footer__text" href="https://www.facebook.com/seanhengchatbot">
             เซียนเฮงแชทบอท
           </a>
         </div>
@@ -33,11 +33,11 @@ function Footer() {
           </a>
         </div>
         <div className="footer__text-wapper email">
-          <a className="social-logo" href="mailto:Support@SeanHeng.com">
+          <a className="social-logo" href="mailto:support.admin@seanheng.com">
             <MdEmail />
           </a>
-          <a className="footer__text" href="mailto:Support@SeanHeng.com">
-            Support@SeanHeng.com
+          <a className="footer__text" href="mailto:support.admin@seanheng.com">
+            support.admin@seanheng.com
           </a>
         </div>
       </div>

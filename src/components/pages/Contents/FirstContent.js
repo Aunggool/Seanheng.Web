@@ -26,7 +26,7 @@ function FirstContent() {
                   ซึ่งเป็นสิ่งสำคัญได้มากขึ้น
                 </p>
                 <a href="#register">
-                  <Button buttonSize="btn--wide" buttonColor="blue">
+                  <Button buttonSize="btn--wide" buttonColor="blue" id='register_feature_button'>
                     สมัครใช้งาน
                   </Button>
                 </a>

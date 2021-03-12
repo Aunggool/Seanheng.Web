@@ -23,7 +23,7 @@ function ThirdContent() {
                   แอดมินก็สามารถรับมือและดูแลลูกค้าได้อย่างแน่นอน
                 </p>
                 <a href="#register">
-                  <Button buttonSize="btn--wide" buttonColor="blue">
+                  <Button buttonSize="btn--wide" buttonColor="blue" id='register_feature_button_3'>
                     สมัครใช้งาน
                   </Button>
                 </a>
