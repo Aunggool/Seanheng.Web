@@ -64,7 +64,7 @@ function FAQContent() {
               <h3 id='faq_content_3'>3) การสมัครใช้งานเซียนเฮงโดย Facebook</h3>
             </div>
             <div className={(faqList.faq3 ? "faq__answer-wrapper " : "faq__answer-wrapper hide")}>
-              <iframe src='https://www.youtube.com/embed/pgQYFDHx4jc' style={{ width: '100%', height: '550px' }} />
+              <iframe src='https://www.youtube.com/embed/Ys28m-ZQLlE' style={{ width: '100%', height: '550px' }} />
             </div>
           </div>
           <div className="faq__wrapper" id='faq_content_4'>
@@ -78,7 +78,7 @@ function FAQContent() {
               <h3 id='faq_content_4'>4) การสมัครใช้งานเซียนเฮงโดย Line</h3>
             </div>
             <div className={(faqList.faq4 ? "faq__answer-wrapper " : "faq__answer-wrapper hide")}>
-              <iframe src='https://www.youtube.com/embed/3ce15Afx56E' style={{ width: '100%', height: '550px' }} />
+              <iframe src='https://www.youtube.com/embed/bcoZSUjE0cU' style={{ width: '100%', height: '550px' }} />
             </div>
           </div>
         </div>
