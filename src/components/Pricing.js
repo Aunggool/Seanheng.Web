@@ -21,7 +21,7 @@ function Pricing() {
               <a href="#register" className="pricing__container-card" id='price_button_1m'>
                 <div className="pricing__container-cardInfo" id='price_button_1m'>
                   <h3 id='price_button_1m'>1 เดือน</h3>
-                  <h4 id='price_button_1m'>฿490</h4>
+                  <h4 id='price_button_1m'>฿559</h4>
                   <p id='price_button_1m'>ต่อเดือน</p>
                 </div>
               </a>
@@ -29,24 +29,24 @@ function Pricing() {
               <a href="#register" className="pricing__container-card" id='price_button_3m'>
                 <div className="pricing__container-cardInfo" id='price_button_3m'>
                   <h3 id='price_button_3m'>3 เดือน</h3>
-                  <h4 id='price_button_3m'>฿1,290</h4>
-                  <p id='price_button_3m'>จาก 1,490 บาท</p>
+                  <h4 id='price_button_3m'>฿1,559</h4>
+                  <p id='price_button_3m'>จาก <span className="cross-out">1,677</span> บาท</p>
                 </div>
               </a>
 
               <a href="#register" className="pricing__container-card" id='price_button_6m'>
                 <div className="pricing__container-cardInfo" id='price_button_6m'>
                   <h3 id='price_button_6m'>6 เดือน</h3>
-                  <h4 id='price_button_6m'>฿2,540</h4>
-                  <p id='price_button_6m'>จาก <span className="cross-out">2,940</span> บาท</p>
+                  <h4 id='price_button_6m'>฿2,899</h4>
+                  <p id='price_button_6m'>จาก <span className="cross-out">3,354</span> บาท</p>
                 </div>
               </a>
 
               <a href="#register" className="pricing__container-card" id='price_button_12m'>
                 <div className="pricing__container-cardInfo" id='price_button_12m'>
                   <h3 id='price_button_12m'>12 เดือน</h3>
-                  <h4 id='price_button_12m'>฿4,990</h4>
-                  <p id='price_button_12m'>จาก 5,880 บาท</p>
+                  <h4 id='price_button_12m'>฿5,599</h4>
+                  <p id='price_button_12m'>จาก <span className="cross-out">6,708</span> บาท</p>
                 </div>
               </a>
             </div>
