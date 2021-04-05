@@ -22,7 +22,7 @@ function ThirdContent() {
                   ไม่ว่าร้านคุณจะใหญ่ขึ้นขนาดไหน
                   แอดมินก็สามารถรับมือและดูแลลูกค้าได้อย่างแน่นอน
                 </p>
-                <a href="#register" >
+                <a href="https://app.seanheng.com/web.merchantmgmt.biz/register?q=wzF+X4jNJESoNmPzahaeWRaCAXeNqlDC9waf11Yf3x405p7UaFmWPXEec4msKeja6yknnZw8M/Xf30LnAlC3JY645KX09ZhBaQANDju26PE=" >
                   <Button buttonSize="btn--wide" buttonColor="blue" id='register_feature_button_3'>
                     สมัครใช้งาน
                   </Button>

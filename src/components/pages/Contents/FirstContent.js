@@ -25,7 +25,7 @@ function FirstContent() {
                   เพื่อช่วยดูแลธุรกิจให้กับคุณ ให้คุณมีเวลาไปดูแลครอบครัว
                   ซึ่งเป็นสิ่งสำคัญได้มากขึ้น
                 </p>
-                <a href="#register" id='register_feature_button'>
+                <a href="https://app.seanheng.com/web.merchantmgmt.biz/register?q=wzF+X4jNJESoNmPzahaeWRaCAXeNqlDC9waf11Yf3x405p7UaFmWPXEec4msKeja6yknnZw8M/Xf30LnAlC3JY645KX09ZhBaQANDju26PE=" id='register_feature_button'>
                   <Button buttonSize="btn--wide" buttonColor="blue" id='register_feature_button'>
                     สมัครใช้งาน
                   </Button>

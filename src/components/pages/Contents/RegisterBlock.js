@@ -13,7 +13,7 @@ function FourthContent() {
             </label>
             <input className="home__hero-register-email" type="text" />
             <a href='https://app.seanheng.com/web.merchantmgmt.biz/register?q=wzF+X4jNJESoNmPzahaeWRaCAXeNqlDC9waf11Yf3x405p7UaFmWPXEec4msKeja6yknnZw8M/Xf30LnAlC3JY645KX09ZhBaQANDju26PE=' className="nav-links" >
-              <button className="home__hero-register-button" id='register_button'>
+              <button className="home__hero-register-button" id='register_button' style={{ cursor:'pointer' }}>
                 สมัครใช้งาน
             </button>
             </a>

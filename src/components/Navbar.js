@@ -47,12 +47,12 @@ function Navbar() {
                             </li>
                             <li className="nav-btn" id='register_navbar'>
                                 {button ? (
-                                    <a href='#register' className="nav-links" onClick={closeMobleMenu}>
+                                    <a href='https://app.seanheng.com/web.merchantmgmt.biz/register?q=wzF+X4jNJESoNmPzahaeWRaCAXeNqlDC9waf11Yf3x405p7UaFmWPXEec4msKeja6yknnZw8M/Xf30LnAlC3JY645KX09ZhBaQANDju26PE=' className="nav-links" >
                                         <Button buttonStyle='btn--solid'
                                             id='register_navbar'>สมัครสมาชิก</Button>
                                     </a>
                                 ) : (
-                                        <a href='#register' className="nav-links" onClick={closeMobleMenu}>
+                                        <a href='https://app.seanheng.com/web.merchantmgmt.biz/register?q=wzF+X4jNJESoNmPzahaeWRaCAXeNqlDC9waf11Yf3x405p7UaFmWPXEec4msKeja6yknnZw8M/Xf30LnAlC3JY645KX09ZhBaQANDju26PE=' className="nav-links" >
                                             <Button buttonStyle='btn--solid'
                                                 buttonSize='btn--mobile'
                                                 id='register_navbar'>
